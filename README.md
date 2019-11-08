@@ -1,6 +1,8 @@
 # parser-spending
 Python3 parser transactions from http://api.spending.gov.ua/
+
 Create database PostgreSQL
+
 Create table 'transaction'
 
     CREATE TABLE public.transaction (
@@ -41,5 +43,6 @@ Create table 'transaction'
 
     
 connect script to your database in rows 18-24
+
 Profit!
 
