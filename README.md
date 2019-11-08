@@ -45,7 +45,8 @@ Create table 'transaction'
 connect script to your database in rows 18-24
 
 Using:
-   python3 update_transactions.py [code edrpou]
+
+    python3 update_transactions.py [code edrpou]
 
 Profit!
 
