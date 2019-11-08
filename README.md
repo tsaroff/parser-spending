@@ -1,5 +1,5 @@
 # parser-spending
-Python3 parser transactions from http://api.spending.gov.ua/
+Python3 parser transactions from API http://api.spending.gov.ua/api/swagger-ui.html
 
 Create database PostgreSQL
 
