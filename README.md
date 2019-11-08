@@ -1,10 +1,9 @@
 # parser-spending
-    Python3 parser transactions from http://api.spending.gov.ua/
-    Python3 parser transactions from http://api.spending.gov.ua/
-    Create database PostgreSQL
-    Create table 'transaction'
+Python3 parser transactions from http://api.spending.gov.ua/
+Create database PostgreSQL
+Create table 'transaction'
 
-CREATE TABLE public.transaction (
+    CREATE TABLE public.transaction (
     id bigint NOT NULL,
     doc_vob integer NOT NULL,
     doc_vob_name character varying(12),
@@ -34,13 +33,13 @@ CREATE TABLE public.transaction (
     source_name character varying(32),
     org_type character varying(10),
     region_koatu integer
-);
+    );
 
-ALTER TABLE ONLY public.transaction
+    ALTER TABLE ONLY public.transaction
     ADD CONSTRAINT transaction_pkey PRIMARY KEY (id);
     
 
     
-    connect script to your database in rows 18-24
-    Profit!
+connect script to your database in rows 18-24
+Profit!
 
