@@ -32,9 +32,7 @@ Create table 'transaction'
     payment_type character varying(32),
     payment_data character varying(32),
     source_id integer NOT NULL,
-    source_name character varying(32),
-    org_type character varying(10),
-    region_koatu integer
+    source_name character varying(32)
     );
 
     ALTER TABLE ONLY public.transaction
