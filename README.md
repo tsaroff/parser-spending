@@ -8,7 +8,7 @@ Create table 'transaction'
     CREATE TABLE public.transaction (
     id bigint NOT NULL,
     doc_vob integer NOT NULL,
-    doc_vob_name character varying(12),
+    doc_vob_name character varying(128),
     doc_number character varying(24) NOT NULL,
     doc_date date,
     doc_v_date date,
